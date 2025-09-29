@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data & outputs (mantén solo el ejemplo)
+*.csv
+!ces_indicators_today_example.csv
+data/
+logs/
+*.log
+
+# Secrets / keys
+.env
+*.key
+*.pem
+
+# Streamlit
+.streamlit/
